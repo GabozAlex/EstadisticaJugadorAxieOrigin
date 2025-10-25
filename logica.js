@@ -2,7 +2,7 @@ document.getElementById('fetchDataButton').addEventListener('click', fetchAndDis
 
 // 🚨 IMPORTANTE: Reemplaza estos valores con tus credenciales.
 const BASE_API_URL = "https://graphql-gateway.axieinfinity.com/graphql"; // Endpoint GraphQL
-const API_KEY = "0dXHj0nEUzClYkJhQDX4duz6e0QfJNJQ"; // <-- ¡Pon tu clave de API real aquí!
+const API_KEY = ""; // <-- ¡Pon tu clave de API real aquí!
 
 // --- FUNCIONES PRINCIPALES ---
 
@@ -147,4 +147,5 @@ function displayResults(dailyStats, container) {
         `;
         container.appendChild(card);
     });
+
 }
