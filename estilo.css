@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    color: #007bff; /* Color principal de Axie-like o web */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#playerIdInput {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+}
+
+#fetchDataButton {
+    background-color: #28a745; /* Verde para acción principal */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+#fetchDataButton:hover {
+    background-color: #1e7e34;
+}
+
+.stats-container {
+    padding: 15px;
+    border-top: 2px solid #eee;
+}
+
+.stats-card {
+    background-color: #e9ecef;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.stats-card h3 {
+    color: #007bff;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.stats-card p {
+    margin: 5px 0;
+}
+
+.message {
+    text-align: center;
+    color: #6c757d;
+    font-style: italic;
+}
+
+.error {
+    color: #dc3545; /* Rojo para errores */
+    font-weight: bold;
+}

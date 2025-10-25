@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadísticas de Jugador de Axie</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Estadísticas de Jugador de Axie Infinity</h1>
+        <p>Ingresa el ID de la cuenta (por ejemplo, el Ronin ID) para ver sus estadísticas diarias de batalla.</p>
+        
+        <div class="input-group">
+            <input type="text" id="playerIdInput" placeholder="ID de Jugador (Ronin ID)">
+            <button id="fetchDataButton">Buscar Estadísticas</button>
+        </div>
+
+        <div id="playerStats" class="stats-container">
+            <p class="message" id="message">Ingresa un ID y haz click en "Buscar Estadísticas".</p>
+        </div>
+    </div>
+
+    <script src="logica.js"></script>
+</body>
+</html>
